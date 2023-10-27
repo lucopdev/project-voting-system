@@ -166,3 +166,4 @@ Info  | RdCoroutineScope          | 44:DefaultDispatcher-worker-27 | RdCoroutine
 2023-10-27 15:35:12,900 [2579516]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
 2023-10-27 15:35:27,684 [2594300]   WARN - #c.i.o.o.e.ConfigurableExtensionPointUtil - ignore configurable with duplicated id: device.file.explorer
 2023-10-27 15:35:27,738 [2594354]   WARN - #c.i.o.o.e.ConfigurableExtensionPointUtil - ignore deprecated groupId: language for id: preferences.language.Kotlin.scripting
+2023-10-27 16:09:55,776 [4662392]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found

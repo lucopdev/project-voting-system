@@ -78,21 +78,27 @@ public class GerenciamentoVotacao implements GerenciamentoVotacaoInterface {
    * Método para mostrar o resultado da eleição. *
    */
   public void mostrarResultado() {
+    int totalVotos = 0;
+
     if (!cpfsComputados.isEmpty()) {
       System.out.println("É preciso ter pelo menos um voto para mostrar o resultado");
     }
 
-    int totalVotos = 0;
-
+    for (PessoaCandidata pessoaCandidata : pessoasCandidatas) {
+      int votos = pessoaCandidata.getVotos();
+      totalVotos += votos;
+    }
+    
     for (PessoaCandidata pessoaCandidata : pessoasCandidatas) {
       String nome = pessoaCandidata.getNome();
       int votos = pessoaCandidata.getVotos();
-      totalVotos += votos;
+
       System.out.println(
           "Nome: " + nome + " - " + votos + " votos " + "( " + Math.round(
               (votos * 100) / totalVotos)
               + "% )");
     }
+
     System.out.println("Total de votos: " + totalVotos);
   }
 }

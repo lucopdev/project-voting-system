@@ -72,6 +72,6 @@ public class GerenciamentoVotacao implements GerenciamentoVotacaoInterface {
               (votos * 100) / totalVotos)
               + "% )");
     }
-    System.out.println(totalVotos);
+    System.out.println("Total de votos: " + totalVotos);
   }
 }

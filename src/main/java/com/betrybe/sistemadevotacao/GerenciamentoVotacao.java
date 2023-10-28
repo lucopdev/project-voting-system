@@ -7,10 +7,16 @@ import java.util.ArrayList;
  */
 public class GerenciamentoVotacao implements GerenciamentoVotacaoInterface {
 
-  final private ArrayList<PessoaCandidata> pessoasCandidatas = new ArrayList<>();
-  final private ArrayList<PessoaEleitora> pessoasEleitoras = new ArrayList<>();
-  final private ArrayList<String> cpfsComputados = new ArrayList<>();
+  private final ArrayList<PessoaCandidata> pessoasCandidatas = new ArrayList<>();
+  private final ArrayList<PessoaEleitora> pessoasEleitoras = new ArrayList<>();
+  private final ArrayList<String> cpfsComputados = new ArrayList<>();
 
+  /**
+   * Método para cadastrar candidatos. *
+   *
+   * @param nome   nome do candidato
+   * @param numero numero do candidato
+   */
   public void cadastrarPessoaCandidata(String nome, int numero) {
     for (PessoaCandidata pessoasCandidata : this.pessoasCandidatas) {
       boolean numeroEncontrado = pessoasCandidata.numero == numero;
@@ -24,6 +30,12 @@ public class GerenciamentoVotacao implements GerenciamentoVotacaoInterface {
     this.pessoasCandidatas.add(pessoaCandidata);
   }
 
+  /**
+   * Método para cadastro de pessoas eleitoras. *
+   *
+   * @param nome nome da pessoa eleitora
+   * @param cpf  cpf da pessoa eleitora
+   */
   public void cadastrarPessoaEleitora(String nome, String cpf) {
     for (PessoaEleitora pessoasEleitora : this.pessoasEleitoras) {
       boolean cpfEncontrado = pessoasEleitora.getCpf().equals(cpf);
@@ -37,6 +49,12 @@ public class GerenciamentoVotacao implements GerenciamentoVotacaoInterface {
     this.pessoasEleitoras.add(pessoaEleitora);
   }
 
+  /**
+   * Método para exercer o voto. *
+   *
+   * @param cpfPessoaEleitora     cpf da pessoa eleitora
+   * @param numeroPessoaCandidata numero da pessoa candidata
+   */
   public void votar(String cpfPessoaEleitora, int numeroPessoaCandidata) {
     for (String cpfsComputado : cpfsComputados) {
       boolean cpfEncontrado = cpfsComputado.equals(cpfPessoaEleitora);
@@ -56,6 +74,9 @@ public class GerenciamentoVotacao implements GerenciamentoVotacaoInterface {
     }
   }
 
+  /**
+   * Método para mostrar o resultado da eleição. *
+   */
   public void mostrarResultado() {
     if (!cpfsComputados.isEmpty()) {
       System.out.println("É preciso ter pelo menos um voto para mostrar o resultado");

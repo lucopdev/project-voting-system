@@ -497,3 +497,88 @@ java.net.SocketTimeoutException: Connect timed out
 2023-10-27 23:43:56,598 [31903214]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
 2023-10-27 23:45:28,168 [31994784]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
 2023-10-27 23:49:45,089 [32251705]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+CompileCommand: exclude com/intellij/openapi/vfs/impl/FilePartNodeRoot.trieDescend bool exclude = true
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+2023-10-28 12:03:30,581 [   3255]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme VSCode Dark Brighter - old: VSCode Dark Brighter, new VSCode Dark Brighter
+2023-10-28 12:03:30,590 [   3264]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Light - old: Light, new Light
+2023-10-28 12:03:30,628 [   3302]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme VSCode Dark Brighter - old: VSCode Dark Brighter, new VSCode Dark Brighter
+2023-10-28 12:03:30,631 [   3305]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme VSCode Light Modern - old: VSCode Light Modern, new VSCode Light Modern
+
+2023-10-28 12:03:31,961 [   4635]   WARN - #o.j.i.maven - updateAllMavenProjectsSync started, edt=false
+2023-10-28 12:03:32,110 [   4784]   WARN - #o.j.i.maven - updateAllMavenProjectsSync finished, edt=false
+Info  | RdCoroutineScope          | 60:DefaultDispatcher-worker-43 | RdCoroutineHost overridden 
+2023-10-28 12:03:34,484 [   7158]   WARN - #c.i.o.a.i.ActionUpdater - 461 ms to grab EDT for ToolWindowHeader$2#update@ToolwindowTitle (com.intellij.toolWindow.ToolWindowHeader$2)
+2023-10-28 12:03:39,828 [  12502]   WARN - #c.i.e.r.RemoteProcessSupport - SLF4J: Class path contains multiple SLF4J bindings.
+2023-10-28 12:03:39,831 [  12505]   WARN - #c.i.e.r.RemoteProcessSupport - SLF4J: Found binding in [jar:file:/home/lucopdev/IntelliJ-IC-232.10072.27/plugins/maven/lib/maven36-server.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+2023-10-28 12:03:39,831 [  12505]   WARN - #c.i.e.r.RemoteProcessSupport - SLF4J: Found binding in [jar:file:/home/lucopdev/IntelliJ-IC-232.10072.27/lib/util-8.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+2023-10-28 12:03:39,831 [  12505]   WARN - #c.i.e.r.RemoteProcessSupport - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+2023-10-28 12:03:39,835 [  12509]   WARN - #c.i.e.r.RemoteProcessSupport - SLF4J: Actual binding is of type [org.jetbrains.idea.maven.server.Maven3WrapperSl4LoggerFactory]
+2023-10-28 12:03:42,970 [  15644]   WARN - #c.i.u.x.Binding - no accessors for com.intellij.ide.util.TipsUsageManager$State
+2023-10-28 12:03:44,802 [  17476]   WARN - #c.i.o.a.i.ActionUpdater - 407 ms to grab EDT for FontEditorPreview$ToggleBoldFontAction#update@ContextToolbar (com.intellij.application.options.colors.FontEditorPreview$ToggleBoldFontAction)
+2023-10-28 12:03:46,874 [  19548]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-10-28 12:03:51,053 [  23727]   WARN - #c.i.o.m.LanguageLevelUtil - File not found: api22.txt
+2023-10-28 12:39:08,683 [2141357]   WARN - #c.i.u.x.Binding - no accessors for java.time.LocalTime
